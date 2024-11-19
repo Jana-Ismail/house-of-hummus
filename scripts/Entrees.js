@@ -5,7 +5,9 @@ export const Entrees = async () => {
     let entreeOptions = ""
     entreeOptions += entrees.map(entree => {
         return `
-            <input type="radio" name="entree-option"/>${entree.name}
+            <div>
+                <input type="radio" name="entree-option"/> ${entree.name}
+            </div>
         `
     }).join("")
 
