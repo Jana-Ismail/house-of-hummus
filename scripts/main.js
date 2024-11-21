@@ -8,3 +8,10 @@ const renderAllHTML = async () => {
 
 renderAllHTML()
 
+document.addEventListener(
+    "comboPurchased",
+    event => {
+        renderAllHTML()
+    }
+)
+
