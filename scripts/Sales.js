@@ -3,7 +3,7 @@ export const Sales = async () => {
 
     let salesDivs = sales.map(sale => {
         return `
-            <div>hello</div>
+            <div>Order #${sale.id}</div>
         `
     })
 
